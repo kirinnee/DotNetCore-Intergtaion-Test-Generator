@@ -1,0 +1,11 @@
+test/
+src/
+config/
+bin/
+node_modules/
+obj/
+script.js
+tsconfig.json
+.idea/
+
+

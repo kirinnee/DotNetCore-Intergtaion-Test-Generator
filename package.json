@@ -1,0 +1,46 @@
+{
+  "name": "@kirinnee/cigen",
+  "version": "1.0.0",
+  "description": "A Tool to generate C# xUnit Integration Test from JSON format",
+  "main": "dist/cigen.js",
+  "bin": {
+    "cigen.js": "dist/cigen.js"
+  },
+  "author": {
+    "name": "kirinnee",
+    "email": "kirinnee@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kirinnee/DotNetCore-Intergtaion-Test-Generator.git"
+  },
+  "scripts": {
+    "build": "node script deploy",
+    "dev": "node script build -w",
+    "start": "node dist/cigen",
+    "test": "node script test",
+    "test:w": "node script test -w",
+    "patch": "node script publish patch",
+    "minor": "node script publish minor",
+    "major": "node script publish major"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.1.5",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^8.0.14",
+    "@types/webpack": "^4.4.12",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "ts-loader": "^5.1.1",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "@kirinnee/core": "^0.2.1",
+    "chalk": "^2.4.1",
+    "commander": "^2.18.0"
+  }
+}

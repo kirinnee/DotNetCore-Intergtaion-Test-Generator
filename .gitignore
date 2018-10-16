@@ -1,0 +1,7 @@
+node_modules/
+.nyc_output/
+**/*.js
+.idea/*
+!.idea/runConfigurations
+!.idea/*.iml
+!.idea/modules.xml
