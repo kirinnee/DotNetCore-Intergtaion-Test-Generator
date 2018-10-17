@@ -1,6 +1,6 @@
 {
   "name": "@kirinnee/cigen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Tool to generate C# xUnit Integration Test from JSON format",
   "main": "dist/cigen.js",
   "bin": {
