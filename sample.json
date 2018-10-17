@@ -1,0 +1,21 @@
+[
+  {
+    "name": "post_test",
+    "type": "POST",
+    "url": "/api/ServiceVendor/",
+    "body": {
+      "businessName": "Orange Valley Nursing Home",
+      "acraNumber": "1234567890",
+      "contactNumber": "61234567",
+      "emailAddress": "orangevalley@orangevalley.com",
+      "postalCode": "123456",
+      "address": "15 Kitchener Road",
+      "numberOfEmployees": 5
+    },
+    "expect": {
+      "StatusCode": "OK",
+      "Message": {
+      }
+    }
+  }
+]
